@@ -1,0 +1,44 @@
+/* styles/header.module.css */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 36px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #ffffff;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logoText {
+  font-size: 15px;
+  font-weight: 600;
+  color: #111827;
+  white-space: nowrap;
+}
+
+.nav {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+
+.nav a {
+  text-decoration:solid underline;
+  font-size: 20px;
+  color: #071908;
+  text-transform: uppercase;
+}
+
+.loginBtn {
+  background: #eccd06;
+  color: rgb(20, 19, 19) !important;
+  padding: 10px 30px;
+  border-radius: 6px;
+  font-weight: 600;
+}

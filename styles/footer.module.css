@@ -1,0 +1,27 @@
+.footer {
+  width: 100%;
+  background: #0b2a5b;
+  color: white;
+  padding: 24px 0;
+  text-align: center;
+}
+.footer {
+  background: #0b2a5b;
+  color: white;
+  padding: 32px 16px;
+  text-align: center;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .footer {
+    padding: 28px 16px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .footer {
+    padding: 24px 12px;
+  }
+}
